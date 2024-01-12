@@ -31,5 +31,6 @@ public class TestNGExample {
         driver.get("https://www.edso.in/");
         driver.manage().window().maximize();
         System.out.println("Hello Good Morning..");
+        driver.close();
     }
 }
