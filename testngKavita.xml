@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="smoke"/>
+        </run>
+    </groups>
+    <test verbose="2" preserve-order="true" name="E:/Repo/MavenProjectDemo10Oct">
+        <classes>
+            <class name="testng.TestNGExample"/>
+            <class name="testng.annotation.BeforeAfterMethodDemo"/>
+            <class name="testng.annotation.BeforeAfterMethodExample"/>
+            <class name="testng.priority.PriorityExample"/>
+            <class name="testng.testngattribute.dependson.DependsOnGroupsExample"/>
+            <class name="testng.testngattribute.dependson.DependsOnMethodExample"/>
+            <class name="testng.testngattribute.invication.InnocationCountExample"/>
+        </classes>
+    </test>
+</suite>
