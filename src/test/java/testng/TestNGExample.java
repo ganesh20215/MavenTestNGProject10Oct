@@ -21,6 +21,7 @@ public class TestNGExample {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.amazon.in/");
         driver.manage().window().maximize();
+        System.out.println("Hello Good Afternoon..");
         driver.close();
     }
 
